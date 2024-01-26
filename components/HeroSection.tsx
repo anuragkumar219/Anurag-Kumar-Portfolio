@@ -3,6 +3,7 @@ import React from "react"
 import Image from "next/image"
 import { Link } from "react-scroll/modules"
 import { HiArrowDown } from "react-icons/hi"
+import { Link as ScrollLink } from "react-scroll";
 
 const HeroSection = () => {
   return (
@@ -26,8 +27,9 @@ const HeroSection = () => {
             </span>
             based in Bangalore, India. Dedicated to ensuring the delivery of high-quality software products through rigorous testing methodologies.
           </p>
-          <Link
-            to="projects"
+          {/* Remove or comment out the following Link component */}
+          {/*<Link
+            to="experience"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
             activeClass="active"
             spy={true}
@@ -35,8 +37,8 @@ const HeroSection = () => {
             offset={-100}
             duration={500}
           >
-            Projects
-          </Link>
+            Experience
+          </Link>*/}
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
@@ -52,7 +54,7 @@ const HeroSection = () => {
         </Link>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default HeroSection
+export default HeroSection;
