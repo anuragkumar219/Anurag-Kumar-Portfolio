@@ -2,17 +2,25 @@ import React from "react"
 import Image from "next/image"
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
+  { skill: "Java" },
   { skill: "Python" },
-  { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
+  { skill: "UI Automation" },
+  { skill: "Test Development" },
+  { skill: "Test Case Planning" },
+  { skill: "Backend Testing" },
+  { skill: "Postman" },
+  { skill: "Selenium" },
   { skill: "Git" },
-  { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "API Testing" },
+  { skill: "CNAPP" },
+  { skill: "Docker" },
+  { skill: "Kubernetes" },
+  { skill: "Data Structures and Algoriths" },
+  { skill: "Burp Suite" },
+  { skill: "Robot Framework" },
+  { skill: "Pytest" },
+  { skill: "Winappdriver" },
+  { skill: "Public Cloud(AWS,Azure)" },
 ]
 
 const AboutSection = () => {
@@ -30,22 +38,22 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
+            I am a seasoned professional in the field of Software Engineering, <span className="font-bold">{"Cloud Security"}</span>, and <span className="font-bold">{"API Security"}</span>, with a rich career that includes experience at <span className="font-bold">{"Akamai Technologies"}</span> and my current role at <span className="font-bold">{"Palo Alto Networks"}</span>. I'm {" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              <span className="font-bold">{" driven"}</span> Staff SDET Engineer
+              based in Bangalore, India.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
+              I graduated from Bangalore Institute of Technology, Bangalore in 2021
+              with a BTech in Computer Engineering and have been working in the
               field ever since.
             </p>
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
+              From reading, playing sports,
               I am always seeking new experiences and love to keep myself
               engaged and learning new things.
             </p>
@@ -76,11 +84,11 @@ const AboutSection = () => {
               })}
             </div>
             <Image
-              src="/hero-image.png"
+              src="/Boy_Coding.png"
               alt=""
               width={325}
               height={325}
-              className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
+              className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0 mt-6"
             />
           </div>
         </div>
