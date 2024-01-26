@@ -1,5 +1,5 @@
-import React from "react"
-import Image from "next/image"
+import React from "react";
+import Image from "next/image";
 
 const skills = [
   { skill: "Java" },
@@ -21,7 +21,7 @@ const skills = [
   { skill: "Pytest" },
   { skill: "Winappdriver" },
   { skill: "Public Cloud(AWS,Azure)" },
-]
+];
 
 const AboutSection = () => {
   return (
@@ -38,7 +38,7 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-            I am a seasoned professional in the field of Software Engineering, <span className="font-bold">{"Cloud Security"}</span>, and <span className="font-bold">{"API Security"}</span>, with a rich career that includes experience at <span className="font-bold">{"Akamai Technologies"}</span> and my current role at <span className="font-bold">{"Palo Alto Networks"}</span>. I'm {" "}
+              I am a seasoned professional in the field of Software Engineering, <span className="font-bold">{"Cloud Security"}</span>, and <span className="font-bold">{"API Security"}</span>, with a rich career that includes experience at <span className="font-bold">{"Akamai Technologies"}</span> and my current role at <span className="font-bold">{"Palo Alto Networks"}</span>. I&apos;m {" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
               <span className="font-bold">{" driven"}</span> Staff SDET Engineer
@@ -80,7 +80,7 @@ const AboutSection = () => {
                   >
                     {item.skill}
                   </p>
-                )
+                );
               })}
             </div>
             <Image
@@ -94,7 +94,7 @@ const AboutSection = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default AboutSection
+export default AboutSection;
