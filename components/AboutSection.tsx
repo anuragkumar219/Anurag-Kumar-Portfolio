@@ -38,15 +38,15 @@ const AboutSection = () => {
           </h1>
           <p>
              I am a seasoned professional in the field of Software Engineering,{' '}
-              <span className="font-bold">{&apos;Cloud Security&apos;}</span>, and{' '}
-              <span className="font-bold">{&apos;API Security&apos;}</span>, with a rich career
-              that includes experience at{' '}
-              <span className="font-bold">{&apos;Akamai Technologies&apos;}</span> and my current
-              role at <span className="font-bold">{&apos;Palo Alto Networks&apos;}</span>. I&apos;m{' '}
-              <span className="font-bold">{&apos;highly ambitious&apos;}</span>,{' '}
-              <span className="font-bold">{&apos;self-motivated&apos;}</span>, and{' '}
-              <span className="font-bold">{&apos;driven&apos;}</span> Staff SDET Engineer
-              based in Bangalore, India.
+  <span className="font-bold">{'Cloud Security'}</span>, and{' '}
+  <span className="font-bold">{'API Security'}</span>, with a rich career
+  that includes experience at{' '}
+  <span className="font-bold">{'Akamai Technologies'}</span> and my current
+  role at <span className="font-bold">{'Palo Alto Networks'}</span>. I&apos;m{' '}
+  <span className="font-bold">{'highly ambitious'}</span>,{' '}
+  <span className="font-bold">{'self-motivated'}</span>, and{' '}
+  <span className="font-bold">{'driven'}</span> Staff SDET Engineer
+  based in Bangalore, India.
             </p>
             <br />
             <p>
