@@ -37,7 +37,38 @@ const AboutSection = () => {
             Get to know me!
           </h1>
           <p>
-            {/* ... existing content ... */}
+             I am a seasoned professional in the field of Software Engineering,{' '}
+              <span className="font-bold">{&apos;Cloud Security&apos;}</span>, and{' '}
+              <span className="font-bold">{&apos;API Security&apos;}</span>, with a rich career
+              that includes experience at{' '}
+              <span className="font-bold">{&apos;Akamai Technologies&apos;}</span> and my current
+              role at <span className="font-bold">{&apos;Palo Alto Networks&apos;}</span>. I&apos;m{' '}
+              <span className="font-bold">{&apos;highly ambitious&apos;}</span>,{' '}
+              <span className="font-bold">{&apos;self-motivated&apos;}</span>, and{' '}
+              <span className="font-bold">{&apos;driven&apos;}</span> Staff SDET Engineer
+              based in Bangalore, India.
+            </p>
+            <br />
+            <p>
+              I graduated from Bangalore Institute of Technology, Bangalore in 2021
+              with a BTech in Computer Engineering and have been working in the
+              field ever since.
+            </p>
+            <br />
+            <p>
+              I have a wide range of hobbies and passions that keep me busy.
+              From reading, playing sports,
+              I am always seeking new experiences and love to keep myself
+              engaged and learning new things.
+            </p>
+            <br />
+            <p>
+              I believe that you should{' '}
+              <span className="font-bold text-teal-500">{&apos;never stop growing&apos;}</span>{' '}
+              and that&apos;s what I strive to do, I have a passion for
+              technology and a desire to always push the limits of what is
+              possible. I am excited to see where my career takes me and am
+              always open to new opportunities. 🙂
           </p>
         </div>
         <div className="text-center md:w-1/2 md:text-left">
