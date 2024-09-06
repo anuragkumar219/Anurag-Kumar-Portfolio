@@ -17,9 +17,13 @@ const experiences = [
       },
     ],
     rolesResponsibilities: [
+      "Worked with the Satellite team to ensure the proper installation of agents on AKS, EKS, and GKE clusters. Ensured logs were accurately captured for various customer services and successfully transmitted to the server.",
+      "Resolved customer issues like encoding issues in callback URLs by working closely with development teams",
       "Conducted in-depth testing of OAuth2.0 integration for 3rd-party systems, notably ServiceNow within Prisma Cloud. Ensured seamless functionality and security, validating compatibility for a smooth collaborative experience.",
       "Performed meticulous testing of Cortex XSoar version upgrades, assessing compatibility across different versions. Ensured a hassle-free transition, contributing to enhanced system performance.",
       "Tested Slow Queue functionality, addressing challenges in customer networks with slower response times. This proactive segregation prevents timeouts, optimizing integrations with critical tools like JIRA, ServiceNow, and Webhook resulting in a 90% reduction in integration timeouts.",
+      "Validated notification services on a new production stack by collaborating with other teams to quickly resolve issues and helped the team to go live within the deadline.",
+      "Monitored the functionality of notification and alarm center services in production environments using scheduled runs (prod sanity), ensuring system stability and reliability"
     ],
   },
   // Add more experience entries as needed
